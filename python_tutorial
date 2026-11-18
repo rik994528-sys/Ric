@@ -1,0 +1,492 @@
+print("="* 30)
+print("          PyJourney    ")
+print("="* 30)
+print()
+
+running = True
+while running:
+    print()
+    print('[A] Lesson 1 - Introduction to Programming and Python')
+    print('[B] Lesson 2 - Understanding Python Syntax')
+    print('[C] Lesson 3 - Exploring Arithmetic Operators')
+    print('[D] Lesson 4 - Python Input and Output')
+    print('[E] Lesson 5 - Making Decisions With Conditional Statements')
+    print('[F] Lesson 6 - Understanding Logical Operators')
+    print('[G] Lesson 7 - Repeating Tasks with Loops')
+    print('[H] Final Assessment – Test Your Knowledge')
+    print()
+
+    lesson_code = input('Please enter a lesson code: ').upper()
+
+    in_lesson = False
+
+    if lesson_code == 'H':
+        score = 0
+
+        print("=" * 30)
+        print('1. What is programming?')
+        print('A. Creating instructions for a computer to follow')
+        print('B. Designing computer hardware')
+        print('C. Browsing the internet')
+        print('D. Installing applications')
+        answer1 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer1 == 'A':
+            score += 1
+
+        print("=" * 30)
+        print('2. Who created the Python programming language?')
+        print('A. Dennis Ritchie')
+        print('B. Guido van Rossum')
+        print('C. James Gosling')
+        print('D. Bill Gates')
+        answer2 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer2 == 'B':
+            score += 1
+
+        print("=" * 30)
+        print('3. Which symbol is used to assign a value to a variable?')
+        print('A. ==')
+        print('B. !=')
+        print('C. =')
+        print('D. >=')
+        answer3 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer3 == 'C':
+            score += 1
+
+        print("=" * 30)
+        print('4. Which of the following is a valid Python variable name?')
+        print('A. 2name')
+        print('B. my-name')
+        print('C. my name')
+        print('D. my_name')
+        answer4 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer4 == 'D':
+            score += 1
+
+        print("=" * 30)
+        print('5. Which Python function displays output?')
+        print('A. input()')
+        print('B. print()')
+        print('C. show()')
+        print('D. display()')
+        answer5 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer5 == 'B':
+            score += 1
+
+        print("=" * 30)
+        print('6. Which Python function allows users to enter information?')
+        print('A. print()')
+        print('B. type()')
+        print('C. input()')
+        print('D. int()')
+        answer6 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer6 == 'C':
+            score += 1
+
+        print("=" * 30)
+        print('7. What is the result of 10 + 5 * 2?')
+        print('A. 30')
+        print('B. 20')
+        print('C. 25')
+        print('D. 15')
+        answer7 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer7 == 'B':
+            score += 1
+
+        print("=" * 30)
+        print('8. Which operator calculates the remainder after division?')
+        print('A. /')
+        print('B. //')
+        print('C. *')
+        print('D. %')
+        answer8 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer8 == 'D':
+            score += 1
+
+        print("=" * 30)
+        print('9. Which statement executes code when a condition is true?')
+        print('A. if')
+        print('B. for')
+        print('C. while')
+        print('D. break')
+        answer9 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer9 == 'A':
+            score += 1
+
+        print("=" * 30)
+        print('10. What is the purpose of the else statement?')
+        print('A. To repeat a condition')
+        print('B. To declare a variable')
+        print('C. To execute code when previous conditions are false')
+        print('D. To stop the program')
+        answer10 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer10 == 'C':
+            score += 1
+
+        print("=" * 30)
+        print('11. Which logical operator returns True only when both conditions are True?')
+        print('A. or')
+        print('B. and')
+        print('C. not')
+        print('D. !=')
+        answer11 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer11 == 'B':
+            score += 1
+
+        print("=" * 30)
+        print('12. What does the not operator do?')
+        print('A. Adds two values')
+        print('B. Repeats a condition')
+        print('C. Reverses a Boolean value')
+        print('D. Compares two numbers')
+        answer12 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer12 == 'C':
+            score += 1
+
+        print("=" * 30)
+        print('13. Which loop is commonly used to iterate through a sequence?')
+        print('A. if')
+        print('B. else')
+        print('C. elif')
+        print('D. for')
+        answer13 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer13 == 'D':
+            score += 1
+
+        print("=" * 30)
+        print('14. What is the purpose of the break statement?')
+        print('A. To immediately terminate a loop')
+        print('B. To restart the loop')
+        print('C. To skip the current iteration')
+        print('D. To pause the program')
+        answer14 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer14 == 'A':
+            score += 1
+
+        print("=" * 30)
+        print('15. What is the difference between a for loop and a while loop?')
+        print('A. Both are conditional statements')
+        print('B. A for loop iterates over a sequence, while a while loop repeats as long as its condition is true')
+        print('C. A while loop only works with numbers')
+        print('D. A for loop cannot repeat instructions')
+        answer15 = input('Enter (A, B, C, or D): ').upper()
+
+        if answer15 == 'B':
+            score += 1
+
+        print("=" * 30)
+        print('RESULTS')
+        print("=" * 30)
+        print('Your answers:', answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10, answer11, answer12, answer13, answer14, answer15)
+        print(f'Your score is: {score}/15')
+
+        print("=" * 30)
+
+        if score >= 10:
+            print('CONGRATULATIONS! You PASSED the lesson!')
+        else:
+            print('Sorry, you did NOT pass the lesson.')
+            print('\nHere are some sites to help you learn Python better:')
+            print('1. https://docs.python.org/3/tutorial - The official Python tutorial')
+            print('2. https://www.w3schools.com/python - Beginner friendly lessons with examples')
+            print('3. https://www.programiz.com/python-programming - Simple explanations for beginners')
+            print('4. https://realpython.com - In-depth tutorials and guides')
+
+            print('\nReview the lessons and try again. Good luck!')
+
+        print("=" * 30)
+        print('Thank you for taking this python tutorial')
+
+    elif lesson_code == 'A' or lesson_code == 'B' or lesson_code == 'C' or lesson_code == 'D' or lesson_code == 'E' or lesson_code == 'F' or lesson_code == 'G':
+        in_lesson = True
+
+    else:
+        print('\nPlease enter a valid lesson code!')
+
+    while in_lesson:
+
+        if lesson_code == 'A':
+            print('\n**What is a Programming Language**')
+            print()
+            print('A programming language is a special language that computers understand and use to perform tasks.')
+            print()
+            print('**What is Python Programming**')
+            print()
+            print('Python is a widely used programming language that was created by Guido van Rossum in 1991.')
+            print()
+            print('Guido van Rossum is a Dutch software engineer best known for creating Python.')
+            print()
+            print('Python is a high level, interpreted, and general purpose programming language designed to be simple, readable, and easy to learn.')
+            print()
+            print('**Why Learn Python**')
+            print()
+            print('- It has simple, English-like syntax that is easy for beginners.')
+            print('- It is used in web development, data science, AI, games, and automation.')
+            print('- It has a huge community and many free libraries.')
+
+        elif lesson_code == 'B':
+            print('\n**What is Syntax**')
+            print()
+            print('Syntax is the set of rules that defines how a Python program must be written.')
+            print()
+            print('**Indentation**')
+            print()
+            print('Python uses indentation (spaces at the start of a line) to group code. Blocks such as if statements and loops must be indented.')
+            print()
+            print('**Comments**')
+            print()
+            print('A comment starts with # and is ignored by Python. Comments explain your code to people.')
+            print('Example: # This is a comment')
+            print()
+            print('**Variables**')
+            print()
+            print('A variable stores a value. You create one by assigning a value with =.')
+            print("Example: name = 'Ric'")
+            print('Example: age = 20')
+            print()
+            print('**Case Sensitivity**')
+            print()
+            print('Python is case sensitive. Name and name are two different variables.')
+            print()
+            print('**Variable Naming Rules**')
+            print()
+            print('- Must start with a letter or underscore, not a number.')
+            print('- Can only contain letters, numbers, and underscores.')
+            print('- Cannot be a Python keyword such as if, for, or while.')
+            print()
+            print('**Common Data Types**')
+            print()
+            print("- str  : text, such as 'Hello'")
+            print('- int  : whole numbers, such as 10')
+            print('- float: decimal numbers, such as 3.14')
+            print('- bool : True or False')
+
+        elif lesson_code == 'C':
+            print('\n**What are Arithmetic Operators**')
+            print()
+            print('Arithmetic operators are symbols used to do math in Python.')
+            print()
+            print('**The Operators**')
+            print()
+            print('+   Addition         10 + 3  = 13')
+            print('-   Subtraction      10 - 3  = 7')
+            print('*   Multiplication   10 * 3  = 30')
+            print('/   Division         10 / 3  = 3.3333 (always gives a float)')
+            print('//  Floor Division   10 // 3 = 3 (drops the decimal part)')
+            print('%   Modulus          10 % 3  = 1 (the remainder)')
+            print('**  Exponent         10 ** 3 = 1000 (power of)')
+            print()
+            print('**Order of Operations**')
+            print()
+            print('Python follows PEMDAS: Parentheses, Exponents, Multiplication and Division, then Addition and Subtraction.')
+            print('Example: 2 + 3 * 4 = 14')
+            print('Example: (2 + 3) * 4 = 20')
+            print()
+            print('**Useful Tip**')
+            print()
+            print('The modulus operator is often used to check if a number is even or odd. If number % 2 == 0, the number is even.')
+            print()
+            print('**Shortcut Operators**')
+            print()
+            print('x += 5 is the same as x = x + 5. This also works with -=, *=, and /=.')
+
+        elif lesson_code == 'D':
+            print('\n**Output with print()**')
+            print()
+            print('The print() function displays text or values on the screen.')
+            print("Example: print('Hello, World!')")
+            print()
+            print('**Input with input()**')
+            print()
+            print('The input() function asks the user to type something and returns what they typed.')
+            print("Example: name = input('Enter your name: ')")
+            print()
+            print('**Input is Always Text**')
+            print()
+            print('Everything returned by input() is a string, even if the user types a number. To do math, convert it first:')
+            print("age = int(input('Enter your age: '))")
+            print("price = float(input('Enter a price: '))")
+            print()
+            print('**Combining Text and Variables**')
+            print()
+            print('An f-string lets you place variables inside text.')
+            print("Example: print(f'Hello {name}, you are {age} years old')")
+            print()
+            print('**Special Characters**')
+            print()
+            print('\\n starts a new line.')
+            print('\\t adds a tab space.')
+            print()
+            print('**Useful String Methods**')
+            print()
+            print('- .upper() makes text uppercase')
+            print('- .lower() makes text lowercase')
+            print('- .strip() removes extra spaces at the start and end')
+
+        elif lesson_code == 'E':
+            print('\n**What are Conditional Statements**')
+            print()
+            print('Conditional statements let your program make decisions and run different code depending on a condition.')
+            print()
+            print('**The if Statement**')
+            print()
+            print('Runs code only if the condition is True.')
+            print('Example:')
+            print('    if age >= 18:')
+            print("        print('You are an adult')")
+            print()
+            print('**The else Statement**')
+            print()
+            print('Runs when the if condition is False.')
+            print('Example:')
+            print('    if age >= 18:')
+            print("        print('Adult')")
+            print('    else:')
+            print("        print('Minor')")
+            print()
+            print('**The elif Statement**')
+            print()
+            print('Short for else if. It checks another condition when the first one is False.')
+            print('Example:')
+            print('    if score >= 90:')
+            print("        print('A')")
+            print('    elif score >= 80:')
+            print("        print('B')")
+            print('    else:')
+            print("        print('Keep trying')")
+            print()
+            print('**Comparison Operators**')
+            print()
+            print('==  equal to')
+            print('!=  not equal to')
+            print('<   less than')
+            print('>   greater than')
+            print('<=  less than or equal to')
+            print('>=  greater than or equal to')
+            print()
+            print('**Important Notes**')
+            print()
+            print('- Use == to compare and = to assign.')
+            print("- Don't forget the colon : after the condition.")
+            print('- The code inside must be indented.')
+
+        elif lesson_code == 'F':
+            print('\n**What are Logical Operators**')
+            print()
+            print('Logical operators combine or change conditions. They return True or False.')
+            print()
+            print('**and**')
+            print()
+            print('True only if BOTH conditions are True.')
+            print('Example: age >= 18 and has_id')
+            print('True and True   = True')
+            print('True and False  = False')
+            print('False and False = False')
+            print()
+            print('**or**')
+            print()
+            print('True if AT LEAST ONE condition is True.')
+            print("Example: day == 'Saturday' or day == 'Sunday'")
+            print('True or False   = True')
+            print('False or False  = False')
+            print()
+            print('**not**')
+            print()
+            print('Reverses the result.')
+            print('Example: not is_raining')
+            print('not True  = False')
+            print('not False = True')
+            print()
+            print('**Using Them in if Statements**')
+            print()
+            print('    if age >= 18 and age <= 60:')
+            print("        print('Working age')")
+            print()
+            print('**Order of Evaluation**')
+            print()
+            print('Python checks not first, then and, then or. Use parentheses to make your meaning clear.')
+
+        elif lesson_code == 'G':
+            print('\n**What are Loops**')
+            print()
+            print("A loop repeats a block of code so you don't have to write it many times.")
+            print()
+            print('**The while Loop**')
+            print()
+            print('Repeats as long as a condition is True.')
+            print('Example:')
+            print('    count = 1')
+            print('    while count <= 5:')
+            print('        print(count)')
+            print('        count += 1')
+            print()
+            print('**The for Loop**')
+            print()
+            print('Repeats code a set number of times or for each item in a sequence.')
+            print('Example:')
+            print('    for i in range(5):')
+            print('        print(i)')
+            print('This prints 0 1 2 3 4.')
+            print()
+            print('**Looping Through Text**')
+            print()
+            print('    for letter in "Python":')
+            print('        print(letter)')
+            print()
+            print('**Warning: Infinite Loops**')
+            print()
+            print('If the condition never becomes False, the loop never stops. Make sure something inside the loop changes the condition.')
+
+        print('\n[1] Continue to Next Lesson')
+        print('[2] Go Back to Main Menu')
+        print('[3] Exit')
+        choice = input('\nPlease enter a choice: ')
+
+        if choice == '1':
+            if lesson_code == 'A':
+                print('\nMoving to Lesson 2...')
+                lesson_code = 'B'
+            elif lesson_code == 'B':
+                print('\nMoving to Lesson 3...')
+                lesson_code = 'C'
+            elif lesson_code == 'C':
+                print('\nMoving to Lesson 4...')
+                lesson_code = 'D'
+            elif lesson_code == 'D':
+                print('\nMoving to Lesson 5...')
+                lesson_code = 'E'
+            elif lesson_code == 'E':
+                print('\nMoving to Lesson 6...')
+                lesson_code = 'F'
+            elif lesson_code == 'F':
+                print('\nMoving to Lesson 7...')
+                lesson_code = 'G'
+            else:
+                print('\nYou finished all lessons! Returning to Main Menu...')
+                in_lesson = False
+
+        elif choice == '2':
+            print('\nReturning to Main Menu...')
+            in_lesson = False
+
+        elif choice == '3':
+            print('\nThank you for studying!')
+            in_lesson = False
+            running = False
+
+        else:
+            print('\nPlease enter a valid choice!')
